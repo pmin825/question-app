@@ -1,0 +1,21 @@
+### Create a question 
+
+POST http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+{
+    "name": "Noble cheetah",
+    "text": "This is a note that i hope works again",
+    "repo": "repo",
+    "live": "live"
+}
+
+### View questions
+GET http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+### Edit a question
+
+### Delete a question
+DELETE http://127.0.0.1:5000/api/questions/606f556fe37be219a094b61f
+Content-Type: application/json
